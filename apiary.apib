@@ -1,0 +1,29 @@
+FORMAT: 1A
+HOST: http://devapi.seqr.com/seqr-webshop-api
+
+# SEQR Webshop API
+This document describes the API webshops use to poll for invoices status.
+The same API is by used the the [seqr-webshop-plugin](https://github.com/SeamlessDistribution/seqr-webshop-plugin)
+to provide easy integration with existing sites.
+
+# Group Invoice
+Invoice-related resources of *SEQR Webshop API*
+
+## Invoice [/invoice.php?invoiceId={invoiceId}]
+Invoice resource represents a SEQR invoice status
+
+The Invoice resource has the following attribute:
+
++ Parameters
+
+    + invoiceId (required, number, `1`) ... `id` of the invoice.
+
+### Check invoice status [GET]
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+                "status": "INVALID"
+            }
