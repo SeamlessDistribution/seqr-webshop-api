@@ -10,8 +10,8 @@ try {
 
     $soapClient = new SoapClient($wsdl);
 
-    $terminalId = isset($data['terminalId']) ? $data['terminalId'] : '58af556cc3794c66a32aadbb7cab0a2c';
-    $password = isset($data['password']) ? $data['password'] : 'AnReH4NevKSXkcJ';
+    $terminalId = isset($data['terminalId']) ? $data['terminalId'] : '8609bf533abf4a20816e8bfe76639521';
+    $password = isset($data['password']) ? $data['password'] : 'N2YFUhKaB1ZSuVF';
 
     $title = $data['title'];
     $currency = $data['currency'];
