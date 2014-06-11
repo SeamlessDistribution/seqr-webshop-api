@@ -2,7 +2,7 @@
 
 header('Content-Type: application/json');
 
-$wsdl = isset($_REQUEST['wsdl']) ? $_REQUEST['wsdl'] : 'http://extdev4.seqr.se/extclientproxy/service/v2?wsdl';
+$wsdl = isset($_REQUEST['wsdl']) ? $_REQUEST['wsdl'] : 'https://extdev.seqr.com/extclientproxy/service/v2?wsdl';
 
 try {
 

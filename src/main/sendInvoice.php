@@ -6,7 +6,7 @@ try {
 
     $data = json_decode(file_get_contents('php://input'), true);
 
-    $wsdl = isset($data['wsdl']) ? $data['wsdl'] : 'http://extdev4.seqr.se/extclientproxy/service/v2?wsdl';
+    $wsdl = isset($data['wsdl']) ? $data['wsdl'] : 'https://extdev.seqr.com/extclientproxy/service/v2?wsdl';
 
     $soapClient = new SoapClient($wsdl);
 
