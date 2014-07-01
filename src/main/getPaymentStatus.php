@@ -1,6 +1,7 @@
 <?php
 
 header('Content-Type: application/json');
+header("Cache-Control: no-cache, must-revalidate");
 
 $wsdl = isset($_REQUEST['wsdl']) ? $_REQUEST['wsdl'] : 'https://extdev.seqr.com/extclientproxy/service/v2?wsdl';
 
