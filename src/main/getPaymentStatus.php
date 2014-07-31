@@ -8,8 +8,8 @@ try {
 
     $soapClient = new SoapClient($wsdl);
 
-    $terminalId = isset($_REQUEST['terminalId']) ? $_REQUEST['terminalId'] : '8609bf533abf4a20816e8bfe76639521';
-    $password = isset($_REQUEST['password']) ? $_REQUEST['password'] : 'N2YFUhKaB1ZSuVF';
+    $terminalId = isset($_REQUEST['terminalId']) ? $_REQUEST['terminalId'] : 'tajzlz6xflfo6yq2i8aq62i3k11orpl1';
+    $password = isset($_REQUEST['password']) ? $_REQUEST['password'] : 'MgFQ1OO1dj2JTCS';
 
     $params = array(
         "context" => array(
